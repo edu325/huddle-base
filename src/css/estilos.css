@@ -6,8 +6,49 @@ body {
     background: url(../images/bg-desktop.svg) no-repeat center center;
     background-color: hsl(257, 40%, 49%);
     font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 .header {
-    
+    margin: 50px;
 }
+
+.header img {
+    width: 15%;
+}
+
+.main {
+    display: flex;
+    margin: 30px 50px;
+}
+
+.main img {
+    width: 45%;
+}
+
+.main .info-main {
+    color: #fff;
+    padding: 30px 40px;
+}
+
+.main .info-main h2 {
+    font-size: 4rem;
+}
+
+.main .info-main p {
+    font-size: 1.4rem;
+    margin-top: 17px;
+    line-height: 24px;
+}
+
+.main .info-main .btn-register {
+    background-color: #fff;
+    width: 90px;
+    height: 43px;
+    border-radius: ;
+}
+
+.main .info-main .btn-register a {
+    color: hsl(257, 40%, 49%);
+}
+
