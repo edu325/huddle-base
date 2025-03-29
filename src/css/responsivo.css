@@ -1,0 +1,48 @@
+@media (max-width: 980px) {
+    .main {
+        flex-direction: column;
+    }
+
+    .main img {
+        margin-left: 45px;
+    }
+}
+
+@media (max-width: 770px) {
+    .main img {
+        width: 80%;
+    }
+}
+
+@media (max-width: 520px) {
+    .header img {
+        width: 55%;
+    }
+
+    .main {
+        margin: 20px;
+    }
+
+    .main .info-main {
+        display: flex;
+        flex-direction: column;
+        padding: 20px;
+        text-align: center;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .main .info-main h2 {
+        font-size: 2.6rem;
+    }
+
+    .main .info-main p {
+        font-size: 1.9rem;
+        font-weight: 300;
+    }
+
+    .footer .social {
+        margin-right: 0;
+        justify-content: center;
+    }
+}
