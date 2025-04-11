@@ -1,4 +1,9 @@
 @media (max-width: 980px) {
+    body {
+        background: url(../images/bg-mobile.svg) no-repeat center center;
+        background-color: hsl(257, 40%, 49%);
+    }
+
     .main {
         flex-direction: column;
     }
